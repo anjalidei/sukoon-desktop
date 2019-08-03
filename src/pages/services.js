@@ -49,7 +49,6 @@ const HeaderIntroRight = styled.div`
     `;
 
 const HeaderIntro = () => {
-
     return (
         <section id="header-intro" className="w-full">
             <div id="header-intro-container" className="flex relative">
@@ -58,14 +57,10 @@ const HeaderIntro = () => {
                 <HeaderIntroRight id="header-intro-right" className="relative">
                     <HeaderIntroLeft id="header-intro-left" className="absolute w-fit">
                         <Heading/>
-
                         <div className="book-now-container mt-4">
-
                             <div className="my-4">
-                               <ul>
-                                   <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                                      <li> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
-                               </ul>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+
                             </div>
                         </div>
 
